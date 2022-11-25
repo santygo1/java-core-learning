@@ -3,6 +3,7 @@ package com.ds.serializing;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 /**
@@ -12,6 +13,8 @@ import java.io.Serializable;
 @Getter
 @Setter
 public class Card implements Serializable{
+    @Serial
+    private static final long serialVersionUID = 2183294996612055002L;
     private String title;
     private int CVV;
     private long number;

@@ -16,6 +16,8 @@ import java.util.List;
 @Setter
 public class Wallet implements Serializable {
 
+    @Serial
+    private static final long serialVersionUID = -592143913578943700L;
     private int cash;
 
     private final List<Card> cards;
