@@ -1,4 +1,4 @@
-package com.ds;
+package com.ds.JavaBegginer;
 
 /**
  * @author Danil on 25.11.2022

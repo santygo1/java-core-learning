@@ -1,4 +1,4 @@
-package com.ds;
+package com.ds.JavaBegginer;
 
 import java.util.ArrayList;
 import java.util.List;

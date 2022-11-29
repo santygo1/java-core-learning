@@ -1,4 +1,4 @@
-package com.ds.serializing;
+package com.ds.JavaBegginer.serializing;
 
 import lombok.Getter;
 import lombok.Setter;

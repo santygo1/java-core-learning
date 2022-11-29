@@ -1,4 +1,4 @@
-package com.ds.InitialSequence;
+package com.ds.JavaBegginer.InitialSequence;
 
 /**
  * @author Danil on 25.11.2022

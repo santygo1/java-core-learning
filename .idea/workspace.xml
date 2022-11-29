@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5307f349-a6a1-4b77-ba31-8d6c4065d0a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/InitialSequence/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/InitialSequence/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/DataStructures/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/DataStructures/FractionalKnapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/DataStructures/info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaCollectionsFramework/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaCollectionsFramework/ComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaCollectionsFramework/LinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaCollectionsFramework/Maps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaCollectionsFramework/Sets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/InitialSequence/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/InitialSequence/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/InitialSequence/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/InitialSequence/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/StringPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/StringPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/WildCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/WildCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/serializing/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/serializing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/serializing/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/serializing/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/serializing/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/serializing/objectFile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/JavaBegginer/serializing/objectFile.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +58,30 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Danil/IdeaProjects/JavaCoreLearning",
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.ds.InitialSequence.Main">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.DataStructures.Fibonacci" />
+      <module name="JavaCoreLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.DataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.serializing.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.ds.Concurrency.introduction.Main" />
       <module name="JavaCoreLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.serializing.*" />
+          <option name="PATTERN" value="com.ds.Concurrency.introduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.StringPool" />
+    <configuration name="Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCollectionsFramework.Maps" />
       <module name="JavaCoreLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.*" />
+          <option name="PATTERN" value="JavaCollectionsFramework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.ds.InitialSequence.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.InitialSequence.Main" />
+    <configuration name="Sets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCollectionsFramework.Sets" />
       <module name="JavaCoreLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.InitialSequence.*" />
+          <option name="PATTERN" value="JavaCollectionsFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.Concurrency.introduction.Test" />
+      <module name="JavaCoreLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.Concurrency.introduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,9 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.ds.InitialSequence.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StringPool" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.com.ds.Concurrency.introduction.Main" />
+        <item itemvalue="Application.Sets" />
+        <item itemvalue="Application.Maps" />
+        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +146,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669313689241</updated>
-      <workItem from="1669313691406" duration="13586000" />
+      <workItem from="1669313691406" duration="16486000" />
+      <workItem from="1669441701486" duration="9630000" />
+      <workItem from="1669559191896" duration="1862000" />
+      <workItem from="1669631446765" duration="15404000" />
+      <workItem from="1669723955908" duration="997000" />
     </task>
     <servers />
   </component>
