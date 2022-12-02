@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5307f349-a6a1-4b77-ba31-8d6c4065d0a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/CountDownLatchImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/DeadLock/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/MyProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/Optimization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/ReentrantLockImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/SemaphoreImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/Server/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/Server/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/ThreadInteruption/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/Concurrency/introduction/CallableAndFuture/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ds/EscapeSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ds/EscapeSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +185,7 @@
       <workItem from="1669723955908" duration="10280000" />
       <workItem from="1669792366899" duration="2106000" />
       <workItem from="1669815199688" duration="6560000" />
-      <workItem from="1669907257282" duration="6803000" />
+      <workItem from="1669907257282" duration="8294000" />
     </task>
     <servers />
   </component>
