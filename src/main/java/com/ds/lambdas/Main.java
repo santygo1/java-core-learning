@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 /**
  * @author Danil on 04.12.2022
@@ -15,20 +16,54 @@ public class Main {
         List<Integer> list = initListByOrder(1, 20);
         int[] array = initArrayByOrder(20, 40);
 
-        System.out.println("Args: ");
-        for (String arg : args) {
-            System.out.println("arg: " + arg.replace("-", ""));
-        }
-
         System.out.println("List of integers: " + list);
         System.out.println("Array of integers: " + Arrays.toString(array));
 
+        //mapping
         Random random = new Random();
-        list.stream().map(a -> a* random.nextInt(100)); // change list value by multiplying on random coefficient
-        Arrays.stream(array).map(a -> a * random.nextInt(100)); // change array value by multiplying on random coefficient
+        list = list.stream()
+                .map(a -> a * random.nextInt(100))// change list value by multiplying on random coefficient
+                .collect(Collectors.toList());
 
-        System.out.println(list);
-        System.out.println(array);
+        array = Arrays.stream(array)
+                .map(a -> a * random.nextInt(100)) // change array value by multiplying on random coefficient
+                .toArray();
+
+        System.out.println("Map list: " + list);
+        System.out.println("Map array: " + Arrays.toString(array));
+
+        //filter
+        list = list.stream()
+                .filter(a -> a % 2 != 0)
+                .collect(Collectors.toList());
+        array = Arrays.stream(array)
+                .filter(a -> a % 2 == 0).toArray();
+
+        System.out.println("Filter list(even): " + list);
+        System.out.println("Filter array(odd): " + Arrays.toString(array));
+
+        //foreach
+        Arrays.stream(array).forEach(System.out::println);
+        list.stream().forEach(System.out::println);
+
+
+        //reduce(уменьшение) -> сжимает в один элемент
+        int sumListElements = list.stream().reduce(0, (acc, current) -> acc + current); // 0 - начальное значение аккамулятора
+        int sumArrayElements =
+                Arrays.stream(array)
+                        .reduce((accumulator, currentElement) -> accumulator + currentElement)
+                        .getAsInt();
+        // IDE ругается потому что нет проверки isPresent
+        // А такое может случаться только когда может вернуться ничего
+
+        System.out.println("Sum all elements from list:" + sumListElements);
+        System.out.println("Sum all elements from array: " + sumArrayElements);
+
+        // Пример reduce с факториалом
+        System.out.println("Factorial 5: " + factorial(5));
+
+        // Обычно стараются его не использовать так как он запутанный, но если что то простое то он отлично подходит
+        // для этих целей
     }
 
     /**
@@ -75,5 +110,14 @@ public class Main {
         RangeException() {
             super("Range index are wrong");
         }
+    }
+
+    public static int factorial(int number) {
+        int[] numbers = initArrayByOrder(0, number + 1);
+        return Arrays.stream(numbers)
+                .reduce(1,(factor, current) -> {
+                    if (current != 0) factor *= current;
+                    return factor;
+                });
     }
 }
