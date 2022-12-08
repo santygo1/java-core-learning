@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5307f349-a6a1-4b77-ba31-8d6c4065d0a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/interfaceimpl/marker/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/interfaceimpl/marker/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/interfaceimpl/marker/Summable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/interfaceimpl/simple/DataPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/interfaceimpl/simple/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/interfaceimpl/simple/MinusPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/interfaceimpl/simple/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/interfaceimpl/simple/StarPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/annotation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/annotation/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/annotation/simpleimpl/PermissionRequired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/annotation/simpleimpl/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/annotation/simpleimpl/UserDeleteAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/reflection/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/reflection/SimpleConsoleClassManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ds/reflection/TestReflection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -51,39 +53,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.ds.interfaceimpl.simple.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.Regex.Main" />
+  <component name="RunManager" selected="Application.SimpleConsoleClassManager">
+    <configuration name="SimpleConsoleClassManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.reflection.SimpleConsoleClassManager" />
       <module name="JavaCoreLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ds.Regex.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.Concurrency.introduction.MyProducerConsumer" />
-      <module name="JavaCoreLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ds.Concurrency.introduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PatternAndMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ds.Regex.PatternAndMatcher" />
-      <module name="JavaCoreLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ds.Regex.*" />
+          <option name="PATTERN" value="com.ds.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,6 +73,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ds.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ds.reflection.TestReflection" />
+      <module name="JavaCoreLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ds.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleConsoleClassManager" />
+        <item itemvalue="Application.TestReflection" />
         <item itemvalue="Application.com.ds.interfaceimpl.simple.Main" />
         <item itemvalue="Application.com.ds.lambdas.Main" />
         <item itemvalue="Application.SimpleImplementation" />
-        <item itemvalue="Application.PatternAndMatcher" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +146,8 @@
       <workItem from="1669815199688" duration="6560000" />
       <workItem from="1669907257282" duration="14001000" />
       <workItem from="1670131228383" duration="9447000" />
-      <workItem from="1670229752818" duration="3177000" />
+      <workItem from="1670229752818" duration="4487000" />
+      <workItem from="1670497383105" duration="8160000" />
     </task>
     <servers />
   </component>
